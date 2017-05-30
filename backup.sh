@@ -1,6 +1,6 @@
 export PGPASSWORD = "senha123"
 
-Data2=`date "+%Y%m%d-%H:%M"
+Data2=`date "+%Y%m%d-%H:%M"`
 
 NOMEARQUIVO="backup.bd"
 
