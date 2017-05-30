@@ -1,8 +1,8 @@
 export PGPASSWORD = "senha123"
 
-Data2=`date "+%Y%m%d-%H:%M"`
+DATA=`date "+%Y%m%d-%H:%M"`
 
-NOMEARQUIVO="backup.bd"
+NOMEARQUIVO="backup $DATA.bd"
 
 pg_dump -U postgres -h localhost -O -o  -b -F c nomedobanco > $NOMEARQUIVO
 
